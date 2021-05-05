@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 97vw;
+	margin: 0 auto;
+}
+
+.header {
+	margin: 50px 0 50px;
+	background: url('../images/pattern.webp');
+}
+
+.header__title {
+	font-family: Helvetica, sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	color: khaki;
+	text-align: center;
+}
+
+.title {
+	font-family: Helvetica;
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+	margin: 30px 0;
+}
+
+.brushes__title {
+	background: mediumspringgreen;
+}
+
+.frames__title {
+	background: lightcoral;
+}
+
+.paint__title {
+	background: skyblue;
+}
+
+.heading {
+	margin: 20px 0;
+}
+
+.desc:last-child {
+	margin-bottom: 20px;
+}
+
+.price {
+	font-family: 'Helvetica';
+	font-weight: bold;
+	color: blue;
+}
